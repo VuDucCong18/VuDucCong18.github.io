@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Vu Duc Cong — Data & AI Analyst at Sembcorp Industries. SMU Information Systems graduate specialising in Business Analytics, data engineering, and AI-driven insights." />
+  <title>Vu Duc Cong — Data & AI Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">VDC<span class="accent">.</span></span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <button id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="grid-bg"></div>
+    <div class="hero-content">
+      <p class="hero-label">// Hello, I'm</p>
+      <h1 class="hero-name">Vu Duc Cong</h1>
+      <p class="hero-tagline"><span id="typed"></span><span class="cursor">|</span></p>
+      <p class="hero-sub">Resilient by choice. Data-driven by passion. Always improving.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="assets/images/resume.pdf" class="btn-secondary" target="_blank">Download Resume</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">1</span><span class="stat-label">Full-time Role</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">3</span><span class="stat-label">Internships</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">2</span><span class="stat-label">End-to-End Projects</span></div>
+      </div>
+    </div>
+    <div class="hero-photo-wrap">
+      <div class="hero-photo-ring"></div>
+      <div class="hero-photo-fallback">VDC</div>
+      <img src="assets/images/headshot.jpg" alt="Vu Duc Cong" class="hero-photo" onerror="this.style.display='none'; this.previousElementSibling.style.display='flex';" />
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title"><span class="accent">01.</span> About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I arrived in Singapore in <strong>May 2015</strong> with a simple goal and a lot to prove. I spent months studying English and Mathematics to sit the <strong>S-AEIS</strong> (Supplementary Admissions Exercise for International Students) and passed. I was posted to <strong>Ang Mo Kio Secondary School</strong>, joining Secondary 2 mid-year and spending 2.5 years there before sitting my O-Levels.</p>
+          <p>I enrolled in a Common Engineering Programme at <strong>Ngee Ann Polytechnic</strong> and pushed hard in my second year to earn a place in the <strong>Diploma in Aerospace Engineering</strong>. By graduation, I knew two things: I was not ready for the workforce, and aerospace was not where I wanted to be.</p>
+          <p>I applied to universities both overseas and locally before choosing <strong>Singapore Management University</strong>, drawn by the rise of tech and the career path it offered. Eighteen months in, after my first internship, I found a genuine pull toward data and declared a second major in <strong>Data Science &amp; Analytics</strong>. I graduated with <strong>Merit</strong> in June 2026.</p>
+          <p>Today I am working full-time at <strong>Sembcorp Industries</strong> as a <strong>Data &amp; AI Analyst</strong>, building things with data in the city that gave me my shot.</p>
+          <div class="about-tags">
+            <span>dbt</span><span>BigQuery</span><span>Snowflake</span><span>Python</span><span>Airflow</span><span>SQL</span>
+          </div>
+        </div>
+        <div class="about-timeline">
+          <div class="timeline-item">
+            <span class="tl-year">2015</span>
+            <div class="tl-content">
+              <span class="tl-event">Arrived in Singapore</span>
+              <span class="tl-detail">Studied English and Maths, sat S-AEIS and passed</span>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="tl-year">2016</span>
+            <div class="tl-content">
+              <span class="tl-event">Ang Mo Kio Secondary School</span>
+              <span class="tl-detail">Joined Sec 2 mid-year, sat O-Levels 2.5 years later</span>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="tl-year">2019</span>
+            <div class="tl-content">
+              <span class="tl-event">Ngee Ann Polytechnic</span>
+              <span class="tl-detail">Diploma in Aerospace Engineering (Specialisation in Aviation Management) · GPA 3.82/4.00 · Director's List</span>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="tl-year">2022</span>
+            <div class="tl-content">
+              <span class="tl-event">Singapore Management University</span>
+              <span class="tl-detail">BSc Information Systems · Second Major in Data Science &amp; Analytics · Graduated with Merit</span>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="tl-year">2026</span>
+            <div class="tl-content">
+              <span class="tl-event">Sembcorp Industries</span>
+              <span class="tl-detail">Data &amp; AI Analyst · Full-time · Singapore</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title"><span class="accent">02.</span> Experience</h2>
+      <div class="exp-grid">
+
+        <div class="exp-card">
+          <div class="exp-photo-wrap">
+            <div class="exp-photo-fallback">SEPHORA</div>
+            <img src="assets/images/sephora.jpg" alt="Sephora Digital Hub" class="exp-photo" style="object-position: left center;" onerror="this.style.display='none'; this.previousElementSibling.style.display='flex';" />
+            <div class="exp-overlay">
+              <span class="exp-company-tag">Sephora</span>
+            </div>
+          </div>
+          <div class="exp-body">
+            <div class="exp-header">
+              <div>
+                <h3 class="exp-role">Business Intelligence Analyst Intern</h3>
+                <p class="exp-company">Sephora · Tech Data</p>
+              </div>
+              <span class="exp-date">Jan – May 2026</span>
+            </div>
+            <div class="exp-section">
+              <h4 class="exp-section-title">// Team Context</h4>
+              <ul class="exp-bullets">
+                <li>Part of the Tech Data team within Sephora's Digital Hub, responsible for data engineering and analytics across SEA markets</li>
+                <li>Team supports Supply Chain, CRM, and E-commerce functions by building and maintaining data pipelines, dashboards, and KPI frameworks</li>
+                <li>Works closely with regional business stakeholders across 7 APAC markets to ensure data quality and reporting accuracy</li>
+              </ul>
+            </div>
+            <div class="exp-section">
+              <h4 class="exp-section-title">// BAU — Daily &amp; Weekly</h4>
+              <ul class="exp-bullets">
+                <li>Worked in two-week Scrum sprints, resolving one to two data quality tickets per sprint</li>
+                <li>Fixed a Supply Chain inventory dashboard where incorrect dbt model logic caused miscounted stock quantities</li>
+                <li>Restored a broken Airflow pipeline that had been failing silently without alerting downstream consumers</li>
+                <li>Resolved a CRM dashboard config issue caused by inconsistent brand naming across markets, which misaligned regional metrics</li>
+              </ul>
+            </div>
+            <div class="exp-section">
+              <h4 class="exp-section-title">// Project — SEA Brand Portal Migration (DOMO → BigQuery)</h4>
+              <ul class="exp-bullets">
+                <li>Phase 1 (Jan–Mar): mapped all ETL processes and KPI definitions, documented migration scope, built a rollout plan across data engineering and business stakeholders</li>
+                <li>Identified a data discrepancy caused by timezone differences — source data in UTC while dashboards displayed local time, causing day-level metric drift across regions</li>
+                <li>Phase 2 (Apr–May): designed ER diagrams, built dbt models in BigQuery, deployed the end-to-end pipeline, reconnected DOMO dashboards to the new data sources</li>
+                <li>Aligned KPI definitions across Supply Chain and CRM teams as part of the final handover</li>
+              </ul>
+            </div>
+            <div class="exp-tech">
+              <span>dbt</span><span>BigQuery</span><span>Airflow</span><span>CI/CD</span><span>Git</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-photo-wrap">
+            <div class="exp-photo-fallback">SHOPEE</div>
+            <img src="assets/images/shopee.jpg" alt="Shopee" class="exp-photo" onerror="this.style.display='none'; this.previousElementSibling.style.display='flex';" />
+            <div class="exp-overlay">
+              <span class="exp-company-tag">Shopee</span>
+            </div>
+          </div>
+          <div class="exp-body">
+            <div class="exp-header">
+              <div>
+                <h3 class="exp-role">Data Analyst Intern</h3>
+                <p class="exp-company">Shopee · Regional Brand &amp; Growth Marketing</p>
+              </div>
+              <span class="exp-date">May – Nov 2025</span>
+            </div>
+            <div class="exp-section">
+              <h4 class="exp-section-title">// Team Context</h4>
+              <ul class="exp-bullets">
+                <li>Part of the Regional Brand and Growth Marketing team, specifically within the CRM (Customer Relationship Management) sub-unit</li>
+                <li>The CRM team focuses on managing user lifecycles — from onboarding and engagement to retention and reactivation — using data from purchase history, voucher usage, and communication channels</li>
+                <li>Collaborated closely with the Strategy and Analytics team, Campaign Management team, and regional offices across SG, TW, TH, and PH</li>
+              </ul>
+            </div>
+            <div class="exp-section">
+              <h4 class="exp-section-title">// BAU — Daily &amp; Weekly</h4>
+              <ul class="exp-bullets">
+                <li>Operated in weekly Agile sprints with Thursday team check-ins and Monday cross-functional syncs with the Traffic team</li>
+                <li>Evaluated weekly CRM A/B testing campaigns across regional markets (SG, TW, TH, PH) using SQL to pull user-level data from internal databases</li>
+                <li>Conducted backtesting and attribution analysis to assess historical CRM campaign performance across ABS, Total Checkout, and CPIB metrics</li>
+                <li>Performed 30/60/90-day post-campaign retention analysis comparing CRM-converted users against control and organic cohorts</li>
+                <li>Ran PDP voucher display analysis measuring how voucher visibility on product pages influenced view-to-checkout conversion</li>
+              </ul>
+            </div>
+            <div class="exp-section">
+              <h4 class="exp-section-title">// Project — Buyer &amp; Voucher Breakdown Tracker</h4>
+              <ul class="exp-bullets">
+                <li>Built two parallel Spark SQL pipelines: one for buyer and cost attribution breakdown by campaign round, region, and rebate type; one for top 10 voucher usage analysis by discount value, redemption count, and cost per order</li>
+                <li>Automated both pipelines via a monthly scheduler, feeding results into a self-serve Excel tracker used during campaign retrospectives</li>
+                <li>Investigated CPIB anomalies (negative and inflated values) by extracting top 500 highest-cost orders through SQL window functions</li>
+                <li>Simulated CPIB outcomes under different outlier exclusion rules in Excel, shifting stakeholder investigations from manual deep dives to a self-serve model</li>
+              </ul>
+            </div>
+            <div class="exp-tech">
+              <span>Presto SQL</span><span>Spark SQL</span><span>A/B Testing</span><span>Excel</span><span>Airflow</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-photo-wrap">
+            <div class="exp-photo-fallback">AIRE</div>
+            <img src="assets/images/aire.jpg" alt="Aire" class="exp-photo" style="object-position: 30% center;" onerror="this.style.display='none'; this.previousElementSibling.style.display='flex';" />
+            <div class="exp-overlay">
+              <span class="exp-company-tag">Aire</span>
+            </div>
+          </div>
+          <div class="exp-body">
+            <div class="exp-header">
+              <div>
+                <h3 class="exp-role">Business Analyst Intern</h3>
+                <p class="exp-company">Aire · E-commerce &amp; Analytics</p>
+              </div>
+              <span class="exp-date">May – Aug 2024</span>
+            </div>
+            <div class="exp-section">
+              <h4 class="exp-section-title">// Team Context</h4>
+              <ul class="exp-bullets">
+                <li>Joined Aire (XEL LIFECARE PTE), a one-year-old senior care products startup backed by DSG Consumer Partners and part of the SMU BIG incubation programme</li>
+                <li>As a small team, every member was expected to go beyond their formal job scope and take ownership of initiatives end to end</li>
+                <li>Operated across four e-commerce platforms (Lazada, Shopee, TikTok Shop, Shopify) with a fast-paced environment shaped by weekly stand-ups and monthly performance targets</li>
+              </ul>
+            </div>
+            <div class="exp-section">
+              <h4 class="exp-section-title">// BAU — Daily &amp; Weekly</h4>
+              <ul class="exp-bullets">
+                <li>Managed daily e-commerce operations across Lazada, Shopee, TikTok Shop, and Shopify by exporting, cleaning, and analysing sales data in Excel using pivot tables and macros</li>
+                <li>Tracked SKU performance and customer purchasing patterns weekly, feeding into stand-ups and monthly business reviews</li>
+                <li>Designed and maintained Power BI dashboards covering revenue, costs, voucher usage, and customer acquisition</li>
+                <li>Conducted regular competitor pricing analysis to support data-driven pricing decisions, contributing to a 15% increase in customer acquisition</li>
+                <li>Collaborated with Design team on marketing creative performance reviews and Logistics team during 5/5, 6/6, and 7/7 sale campaigns to resolve fulfilment bottlenecks</li>
+              </ul>
+            </div>
+            <div class="exp-section">
+              <h4 class="exp-section-title">// Project — TikTok Shop Launch &amp; National Day 8/8 Campaign</h4>
+              <ul class="exp-bullets">
+                <li>Initiated Aire's entry into TikTok Shop as a new sales channel, developing the platform go-to-market strategy</li>
+                <li>Worked with Design team to produce TikTok video content and ran A/B tests on different creative formats to identify what drove higher engagement and sales</li>
+                <li>Designed and executed the National Day 8/8 campaign targeting new customer acquisition across all platforms</li>
+                <li>Campaign resulted in a 35% increase in revenue and 30% increase in new customers, making it the highest-performing campaign of the internship</li>
+              </ul>
+            </div>
+            <div class="exp-tech">
+              <span>Power BI</span><span>Excel</span><span>Cohort Analysis</span><span>TikTok Ads</span><span>Lazada</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title"><span class="accent">03.</span> Skills</h2>
+      <div class="skills-wrapper">
+        <div class="skill-group">
+          <h4 class="skill-group-label">// Languages</h4>
+          <div class="skill-chips">
+            <span>Python</span><span>SQL</span><span>R</span><span>JavaScript</span><span>HTML/CSS</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4 class="skill-group-label">// Analytics Engineering</h4>
+          <div class="skill-chips">
+            <span>dbt</span><span>Snowflake</span><span>BigQuery</span><span>Airflow</span><span>ETL/ELT</span><span>Dimensional Modeling</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4 class="skill-group-label">// ML & Data Science</h4>
+          <div class="skill-chips">
+            <span>Scikit-learn</span><span>XGBoost</span><span>TensorFlow</span><span>PyTorch</span><span>Pandas</span><span>NumPy</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4 class="skill-group-label">// Platforms & Tools</h4>
+          <div class="skill-chips">
+            <span>Power BI</span><span>FastAPI</span><span>SQLAlchemy</span><span>Git</span><span>CI/CD</span><span>Presto SQL</span><span>Spark SQL</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4 class="skill-group-label">// Languages Spoken</h4>
+          <div class="skill-chips">
+            <span>Vietnamese (Native)</span><span>English (Fluent)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AWARDS -->
+  <section id="awards">
+    <div class="container">
+      <h2 class="section-title"><span class="accent">04.</span> Awards & Recognition</h2>
+      <div class="awards-grid">
+
+        <div class="award-group-card">
+          <div class="award-group-header">
+            <span class="award-org">Singapore Management University</span>
+            <span class="award-period">2022 – 2026</span>
+          </div>
+          <ul class="award-list">
+            <li>
+              <span class="award-dot"></span>
+              <div>
+                <span class="award-name">Top 5 Ruth Chiang Outstanding Intern</span>
+                <span class="award-year">AY2024/2025</span>
+              </div>
+            </li>
+            <li>
+              <span class="award-dot"></span>
+              <div>
+                <span class="award-name">ADA Business Messaging Hackathon — Semi-finalist</span>
+                <span class="award-year">2023</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="award-group-card">
+          <div class="award-group-header">
+            <span class="award-org">Ngee Ann Polytechnic</span>
+            <span class="award-period">2019 – 2022</span>
+          </div>
+          <ul class="award-list">
+            <li>
+              <span class="award-dot"></span>
+              <div>
+                <span class="award-name">Director's List</span>
+                <span class="award-year">AY2019/2020</span>
+              </div>
+            </li>
+            <li>
+              <span class="award-dot"></span>
+              <div>
+                <span class="award-name">Director's List</span>
+                <span class="award-year">AY2020/2021</span>
+              </div>
+            </li>
+            <li>
+              <span class="award-dot"></span>
+              <div>
+                <span class="award-name">Best Performance — Strength of Materials</span>
+                <span class="award-year">AY2020/2021</span>
+              </div>
+            </li>
+            <li>
+              <span class="award-dot"></span>
+              <div>
+                <span class="award-name">Third Most Outstanding Performance — Diploma in Aerospace Engineering</span>
+                <span class="award-year">AY2020/2021</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title"><span class="accent">05.</span> Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-card-inner">
+            <div class="project-card-front">
+              <div class="project-header">
+                <span class="project-tag">Analytics Engineering</span>
+              </div>
+              <h3 class="project-title">Fintech Transaction Analytics</h3>
+              <p class="project-desc">End-to-end dbt + Snowflake analytics pipeline for fintech transaction data. Modular RAW → STAGING → MARTS layers, dimensional star schema models, and 3 interactive KPI dashboard pages. Production-grade CI/CD and data quality testing.</p>
+              <div class="project-tech">
+                <span>dbt</span><span>Snowflake</span><span>SQL</span><span>Streamlit</span><span>CI/CD</span>
+              </div>
+            </div>
+            <div class="project-card-back">
+              <p class="project-back-title">Fintech Transaction Analytics</p>
+              <p class="project-back-subtitle">Analytics Engineering · dbt · Snowflake</p>
+              <div class="project-back-actions">
+                <a href="assets/fintech-report.pdf" download class="back-btn back-btn-primary">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                  Download Report
+                </a>
+                <a href="https://github.com/VuDucCong18/fintech-transaction-analytics-dbt" target="_blank" class="back-btn back-btn-secondary">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-inner">
+            <div class="project-card-front">
+              <div class="project-header">
+                <span class="project-tag">Machine Learning</span>
+              </div>
+              <h3 class="project-title">Phone Insurance Subscriber Forecasting</h3>
+              <p class="project-desc">Supply chain demand forecasting pipeline using Asurion data. Feature engineering on churn, claims, and lifecycle variables with leakage prevention. XGBoost achieved 23.2% RMSE improvement over linear baselines using time-series-aware cross-validation.</p>
+              <div class="project-tech">
+                <span>Python</span><span>XGBoost</span><span>Scikit-learn</span><span>Pandas</span><span>RidgeCV</span>
+              </div>
+            </div>
+            <div class="project-card-back">
+              <p class="project-back-title">Phone Insurance Forecasting</p>
+              <p class="project-back-subtitle">Machine Learning · XGBoost · Python</p>
+              <div class="project-back-actions">
+                <a href="assets/insurance-report.pdf" download class="back-btn back-btn-primary">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                  Download Report
+                </a>
+                <a href="https://github.com/VuDucCong18/phone-insurance-subscriber-forecasting" target="_blank" class="back-btn back-btn-secondary">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title"><span class="accent">06.</span> Contact</h2>
+      <div class="contact-wrap">
+        <div class="contact-text">
+          <h3>Let's build something together.</h3>
+          <p>Currently working at Sembcorp Industries as a Data &amp; AI Analyst. Always open to interesting conversations about data, analytics, and AI.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:vuduccong2241@gmail.com" class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            vuduccong2241@gmail.com
+          </a>
+          <a href="https://linkedin.com/in/congvuduc/" target="_blank" class="contact-item">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            linkedin.com/in/congvuduc
+          </a>
+          <a href="https://github.com/VuDucCong18" target="_blank" class="contact-item">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            github.com/VuDucCong18
+          </a>
+          <a href="tel:+6582257798" class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.01 2.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            +65 8225 7798
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Designed & built by Vu Duc Cong · 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
