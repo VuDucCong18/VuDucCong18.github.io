@@ -1,0 +1,26 @@
+{
+  "name": "vuduccong18.github.io",
+  "private": true,
+  "version": "2.0.0",
+  "description": "Vu Duc Cong's portfolio: a sushi conveyor belt of education, experience and projects.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "npx --yes serve dist",
+    "dishes": "node scripts/dishes/dishes.mjs && node scripts/dishes/plates.mjs"
+  },
+  "dependencies": {
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "esbuild": "0.28.2",
+    "tailwindcss": "4.3.3",
+    "typescript": "6.0.3"
+  },
+  "optionalDependencies": {
+    "sharp": "0.35.4"
+  }
+}
